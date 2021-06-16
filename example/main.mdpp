@@ -1,0 +1,50 @@
+# REPORT
+
+## Executive Summary 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+nisi ut aliquip ex ea commodo consequat.
+
+## Summary of all findings
+
+!FRONTMATTER all, table(CVSS, summary, implication, solution)
+
+
+
+
+### Network Findings
+
+#### Summary of Network Findings
+!FRONTMATTER tags.network, table(CVSS, summary, implication, solution)
+
+#### Finding 1
+!INCLUDE "findings/finding1.mdpp"
+
+#### Finding 2
+!INCLUDE "findings/finding2.mdpp"
+
+#### Finding 3
+!INCLUDE "findings/finding3.mdpp"
+
+
+
+
+
+### Laptop Findings
+
+#### Summary of Laptop Findings
+!FRONTMATTER tags.laptop, table(CVSS, summary, implication, solution)
+
+#### Finding 1
+!INCLUDE "findings/finding1.mdpp"
+
+#### Finding 2
+!INCLUDE "findings/finding2.mdpp"
+
+#### Finding 3
+!INCLUDE "findings/finding3.mdpp"
+
+## House Cleaning
+!INCLUDE "boilerplate/general/housecleaning.mdpp"
